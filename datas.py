@@ -21,3 +21,5 @@ print(type(data_usuario))
 
 #Converter string em data
 data_convertida = datetime.strptime(data_usuario, '%d/%m/%Y')
+print(F'Data Convertida: {data_convertida}');
+print(type(data_convertida))
